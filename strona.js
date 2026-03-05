@@ -5,7 +5,6 @@ function pokazEventyScroll(){
     events.forEach(function(event){
 
         const top = event.getBoundingClientRect().top;
-
         //jesli element jest blisko ekranu
         if(top < window.innerHeight - 100){
             event.style.opacity = "1";
@@ -15,3 +14,4 @@ function pokazEventyScroll(){
 }//event
 window.addEventListener("scroll", pokazEventyScroll);
 pokazEventyScroll();
+
