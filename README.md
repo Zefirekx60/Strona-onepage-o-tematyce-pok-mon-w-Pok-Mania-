@@ -17,14 +17,21 @@ na której można znaleźć najnowsze informacje, ciekawostki oraz wydarzenia zw
 
 # Co zrobiłem po kolei:
 -Stworzyłem wszystkie pliki(index.html, style.css i strona.js) i zacząłem robić zadanie w programie VS,
+
 -Na początku skupiłem się na wyglądzie, ułożeniu(grid) strony oraz na stworzeniu sekcji(hero, about, event i contact),
+
 -Stworzyłem logo dla strony PokéMania w programie Gimp,
+
 -Zacząłem dodawać pierwsze zdjęcia do strony w tym logo które znajduje się w head'erze.
+
 -Potem jak już zrobiłem ogólny wygląd strony to przeszedłem do sekcji i robiłem każdą po kolei,
 ale sekcja z wydarzeniami przeszła największe zmiany bo początkowo były tylko dwa eventy ale dodałem 4 kolejne
 i poprawiłem ich wygląd,
+
 -Robiąc to wszystko też brałem pod uwagę responsywność przy okazji,
+
 -Po tym jak już skończyłem html z css to przeszedłem do JavaScript'a,
+
 -W JavaScript zrobiłem animację przy scrollu która działa dla sekcji eventy, jak sie przewinie w dół strone
 do sekcji wydarzenia to wszystkie elementy zaczynają się pojawiać.
 
