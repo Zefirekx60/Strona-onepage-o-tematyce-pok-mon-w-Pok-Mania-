@@ -39,7 +39,7 @@ body{
 .nav{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 .nav a{
@@ -195,3 +195,4 @@ body{
     font-size: large;
     color: white;
 }
+
