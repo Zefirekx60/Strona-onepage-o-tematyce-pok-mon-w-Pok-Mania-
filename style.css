@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+}
+
+body{
+    overflow-y: scroll;
+}   
+
+/*container z gridem(uklad strony) */
+.container{
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas: 
+    "header header header"
+    "aside1 hero aside2"
+    "aside1 about aside2"
+    "aside1 event aside2"
+    "aside1 contact aside2"
+    "footer footer footer";
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+
+
+/*header strony PokeMania*/
+.header{
+    grid-area: header;
+    height: 140px;
+    background-color: rgb(60, 107, 183);
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.nav a{
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+
+
+/*hero strony, główna strona/początek */
+.aside1{
+    grid-area: aside1;
+    height: auto;
+    background-color: rgb(187, 211, 223);
+}
+
+.aside2{
+    grid-area: aside2;
+    height: auto;
+    background-color: rgb(187, 211, 223);
+}
+
+.hero img{
+    padding-top: 5px;
+    height: 150px;
+    width: auto;
+    padding-bottom: 5px;
+}
+
+.hero{
+    padding-top: 15px;
+    grid-area: hero;
+    height: auto;
+    background-color: rgb(74, 120, 193);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.hero p{
+    color: white;
+    font-size: large;
+}
+
+.hero h1{
+    color: white;
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+
+
+/*about czyli o stronie */
+.about{
+    padding-top: 15px;
+    grid-area: about;
+    height: auto;
+    background-color: rgb(38, 95, 187);
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.about h2{
+    font-size: 35px;
+}
+
+.about-boxes {
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap; 
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column; 
+}
+
+.dragonite img{
+    height: 300px;
+    width: auto;
+}
+
+.box2 a, .box2 button{
+    background-color:rgb(207, 204, 47);
+    color: black;
+}
+
+
+
+/*eventy/wydarzenia zbliżające się */
+.event{
+    grid-area: event;
+    height: auto;
+    background-color: rgb(32, 98, 203);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.event-container{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.event-container img{
+    height: 150px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.event-container a{
+    color: white;
+}
+
+.event h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+
+.event-container > div{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+
+
+/*contact/kontakt i dane kontaktowe*/
+.contact{
+    grid-area: contact;
+    height: auto;
+    background-color: rgb(70, 119, 199);
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+/*footer strony PokeMania*/
+.footer{
+    padding-top: 40px;
+    background-color: rgb(60, 107, 183);
+    height: 100px;
+    grid-area: footer;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
