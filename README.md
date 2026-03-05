@@ -42,6 +42,7 @@ do sekcji wydarzenia to wszystkie elementy zaczynają się pojawiać.
 
 -JavaScript.
 
+# Czego się nauczyłem i z czym miałem trudności?
 Na stronie znajduje się menu nawigacyjne do sekcji, strona ma header i footer.
 Zrobiłem też logo do strony które było wzięte z internetu ale je przerobiłem i usunąłem tło ucząc się przy okazji podstaw w gimpie.
 W sekcji wydarzenia, są wzięte oficjalne zdjęcia nadchodzących wydarzeń pokemonowych i pod nimi linki prowadzące do oficjalnych źródeł(w celu projektu).  
