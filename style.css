@@ -4,7 +4,11 @@
 
 body{
     overflow-y: scroll;
-}   
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 /*container z gridem(uklad strony) */
 .container{
@@ -195,4 +199,5 @@ body{
     font-size: large;
     color: white;
 }
+
 
