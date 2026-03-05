@@ -37,7 +37,9 @@ do sekcji wydarzenia to wszystkie elementy zaczynają się pojawiać.
 
 # Technologie użyte w projekcie:
 -HTML,
+
 -CSS,
+
 -JavaScript.
 
 Na stronie znajduje się menu nawigacyjne do sekcji, strona ma header i footer.
